@@ -1,0 +1,17 @@
+.nav-link svg {
+    fill: grey;
+    width: 35px;
+    height: 35px;
+}
+
+.nav-item:not(:last-child):after {
+    content: '';
+    display: inline-block;
+    border-left: 1px solid grey;
+    margin: 0 10px;
+    height: 100%;
+}
+
+.nav-link.active svg {
+    fill: #eee;
+}
